@@ -1,5 +1,6 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import api from "../services/api";
 
 function Navbar() {
   const navigate = useNavigate();
